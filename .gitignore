@@ -1,3 +1,16 @@
+#VSCode cruft
+.vscode/
+
+# Output and intermediate files
+*.npz
+models/
+high_snr/
+low_snr/
+
+# vim garbase
+*.*~
+.*.un~
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

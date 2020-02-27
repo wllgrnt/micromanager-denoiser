@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-b",
         "--base_dir",
-        help="the base directory the images will be copied to",
+        help="the base directory the input and output files are located in",
         required=True)
     parser.add_argument(
         "-i",
@@ -52,7 +52,6 @@ if __name__ == "__main__":
         "--model_name",
         help="the name of your model (will be stored in model_dir)",
         default="my_model")
-
     parser.add_argument("-p", "--plot", action="store_true", default=True)
     args = parser.parse_args()
 
